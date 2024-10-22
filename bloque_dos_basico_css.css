@@ -1,0 +1,192 @@
+.prueba666{
+    height: 200px;
+    width: 200px;
+    background-color: hsl(0, 0%, 100%);
+    border: 10px solid black;
+    margin: 20px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 70px;
+    font-size: 40px;
+    box-shadow: 20px 20px 20px 20px blue;
+    text-shadow: 20px 20px 10px  blueviolet;
+    background: linear-gradient( hsl(0, 0%, 100%),transparent);
+    
+}
+.duracion{
+    color: #f15245;
+    text-decoration: underline;
+}
+.box0{
+    width: 900px;
+    height: 480px;
+    background-image: url(https://th.bing.com/th/id/R.979f9398e3bb0f992d2b8dc28d9c597f?rik=OaLbXryuVc02Rw&pid=ImgRaw&r=0);
+    background-size: cover;
+    margin:20px;
+    background-color: #000a;
+}
+.caja666{
+    width: 720px;
+    height: 600px;
+    background-image: url(https://ih1.redbubble.net/image.3510479439.3848/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg);
+    margin:20px;
+    background-attachment: fixed;
+    background-color: #000a;
+    
+}
+.titulo-principal{
+    color: rgba(16, 230, 184, 0.89);
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-justify: auto;
+    text-decoration: underline;
+    margin-left: 5%;
+}
+#parrafo-entrada{
+    color:rgba(160, 100, 104, 0.89);
+    font-size: 150%;
+    margin-left: 5%;
+}
+span{
+    color: darkblue;
+}
+body{
+    background: rgba(70, 70, 74, 0.89);
+}
+h2{
+    color:rgba(16, 230, 134, 0.797);
+    padding: 10px 10px 10px 10px;
+    
+
+}
+p{
+    text-align: center;
+    text-align: justify;
+    
+}
+div{
+    margin-left: 25%;
+}
+.card{
+    background: rgba(2, 88, 218, 0.466);
+    width: 500px;
+    height: 200px;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+.nombre{
+    text-align: center;
+    color: rgba(243, 239, 26, 0.776);
+    
+
+}
+.cargo{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 14px;
+    background: rgba(243, 239, 26, 0.776);
+
+}
+.borde{
+    border: 10px solid red;
+    margin:20px 400px 20px 400px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.borde1{
+    border: 10px solid red;
+    margin:20px 400px 20px 400px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 1000px;
+    
+}
+.borde2{
+    border-top: 10px solid red;
+    border-bottom:10px double blue ;
+    border-left: 10px dashed green ;
+    border-right:10px groove gold ;
+    margin:20px 400px 20px 400px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 1000px;
+    
+}
+.caja1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: content-box;
+    border: 10px solid black;
+}
+.caja2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid black;
+}
+.logo{
+    height: 20rem ;
+    width: 20rem;
+    background: radial-gradient(
+        circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf);
+    border-radius: 30%;
+    position:relative;
+}
+.logo:before{
+    content: '';
+    border: 1rem solid #fff;
+    border-radius: 30%;
+    width: 12.5rem;
+    height: 12.5rem;
+    left:0;
+    right: 0;
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+}
+.logo::after{
+    content: '';
+    border: 1rem solid #fff;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    left:0;
+    right: 0;
+    position:absolute;
+    margin:auto;
+    top:0;
+    bottom:0;
+}
+span{
+    content: '';
+    border: 1rem solid #fff;
+    border-radius: 100%;
+    width: 0;
+    height: 0;
+    left:0;
+    right: 5rem;
+    position:absolute;
+    margin:auto;
+    top: 5rem;
+}
